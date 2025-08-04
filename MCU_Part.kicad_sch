@@ -2637,6 +2637,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 85.09) (xy 93.98 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1444b47c-8e32-45e7-b4ab-bfcc0b7a002e")
+	)
+	(wire
+		(pts
 			(xy 129.54 123.19) (xy 138.43 123.19)
 		)
 		(stroke
@@ -2647,13 +2657,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 113.03) (xy 138.43 113.03)
+			(xy 129.54 113.03) (xy 186.69 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "160cdaf0-c87d-4fe1-8bf0-0475e30b3824")
+	)
+	(wire
+		(pts
+			(xy 129.54 105.41) (xy 138.43 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d89faee-f9f2-4567-a332-580ed466ad33")
 	)
 	(wire
 		(pts
@@ -2664,6 +2684,16 @@
 			(type default)
 		)
 		(uuid "209ead78-f8e2-4379-975e-5c7bb32f8074")
+	)
+	(wire
+		(pts
+			(xy 129.54 115.57) (xy 186.69 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2121e5b5-c725-4e14-8571-a5c2c3e2d81d")
 	)
 	(wire
 		(pts
@@ -2754,6 +2784,16 @@
 			(type default)
 		)
 		(uuid "47f735bc-468d-465d-8a95-8abbb605f208")
+	)
+	(wire
+		(pts
+			(xy 129.54 102.87) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488f694a-ff2a-4302-acd1-c2ee7d7e4541")
 	)
 	(wire
 		(pts
@@ -2897,6 +2937,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 87.63) (xy 138.43 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5eabd7-6b82-47fe-b4b9-4f1f764afca0")
+	)
+	(wire
+		(pts
 			(xy 129.54 133.35) (xy 138.43 133.35)
 		)
 		(stroke
@@ -2944,6 +2994,16 @@
 			(type default)
 		)
 		(uuid "9a5f33b9-d8f8-4a9f-abf3-8509c39d787f")
+	)
+	(wire
+		(pts
+			(xy 83.82 87.63) (xy 93.98 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f810467-4336-4f21-9255-db19e34c51d7")
 	)
 	(wire
 		(pts
@@ -3017,6 +3077,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 85.09) (xy 138.43 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca88bead-5348-4343-835a-8414128397b2")
+	)
+	(wire
+		(pts
 			(xy 119.38 41.91) (xy 119.38 44.45)
 		)
 		(stroke
@@ -3054,6 +3124,16 @@
 			(type default)
 		)
 		(uuid "e57b682f-2e83-49cd-9707-202e4f253f8c")
+	)
+	(wire
+		(pts
+			(xy 129.54 95.25) (xy 138.43 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66a614e-4545-4bf5-99b9-b801ab0c6335")
 	)
 	(wire
 		(pts
@@ -3096,6 +3176,16 @@
 		(uuid "19c54453-b04a-4983-a214-e8af9a17f1ab")
 	)
 	(label "Debug_sck"
+		(at 138.43 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57768347-5540-476a-8507-b0693ce00056")
+	)
+	(label "Debug_sck"
 		(at 34.29 31.75 180)
 		(effects
 			(font
@@ -3104,6 +3194,36 @@
 			(justify right bottom)
 		)
 		(uuid "5c0c5b85-960a-4d2a-a11f-4f44504f1870")
+	)
+	(label "Debug_Tx"
+		(at 83.82 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82f3b1fb-5a93-43b8-a216-aa4e82a7cd35")
+	)
+	(label "Debug_swd"
+		(at 138.43 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e165f75b-f378-440e-9a7a-6505d0454474")
+	)
+	(label "Debug_Rx"
+		(at 83.82 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e75bbf4d-60a5-4661-93fa-aa6c90811607")
 	)
 	(label "Debug_swd"
 		(at 52.07 31.75 0)
@@ -3160,7 +3280,7 @@
 	)
 	(hierarchical_label "PWM8_CH2N"
 		(shape output)
-		(at 138.43 110.49 0)
+		(at 138.43 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3202,8 +3322,8 @@
 		)
 		(uuid "4cadf218-233d-44c9-8dc1-e5b8f867d2e5")
 	)
-	(hierarchical_label "PB12_ADC1_IN11"
-		(shape input)
+	(hierarchical_label "PB12_FDCAN2_RX"
+		(shape bidirectional)
 		(at 138.43 123.19 0)
 		(effects
 			(font
@@ -3356,6 +3476,17 @@
 		)
 		(uuid "8db87995-0c50-4189-a2c6-4389ac777a46")
 	)
+	(hierarchical_label "PB6_FDCAN2_TX"
+		(shape bidirectional)
+		(at 138.43 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e97f712-2d88-4f2b-a652-463ce2f5c903")
+	)
 	(hierarchical_label "PWM1_CH3"
 		(shape output)
 		(at 138.43 77.47 0)
@@ -3366,6 +3497,17 @@
 			(justify left)
 		)
 		(uuid "9704a183-1c29-405e-bfaa-96f0423372b6")
+	)
+	(hierarchical_label "PB0_ADC1_IN15"
+		(shape input)
+		(at 138.43 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f041f26-0688-4bdb-b367-d8fa655962ec")
 	)
 	(hierarchical_label "PC0_ADC1_IN6"
 		(shape input)
@@ -3457,7 +3599,7 @@
 	)
 	(hierarchical_label "PWM8_CH1N"
 		(shape output)
-		(at 138.43 113.03 0)
+		(at 138.43 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3758,7 +3900,7 @@
 	)
 	(symbol
 		(lib_id "Interface_CAN_LIN:TJA1051T")
-		(at 217.17 128.27 0)
+		(at 201.93 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3767,7 +3909,7 @@
 		(fields_autoplaced yes)
 		(uuid "b669f5f2-6b0e-497a-836f-a9b2faa6d454")
 		(property "Reference" "U4"
-			(at 219.3133 115.57 0)
+			(at 204.0733 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3776,7 +3918,7 @@
 			)
 		)
 		(property "Value" "TJA1051T"
-			(at 219.3133 118.11 0)
+			(at 204.0733 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,7 +3927,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 217.17 140.97 0)
+			(at 201.93 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +3937,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/TJA1051.pdf"
-			(at 217.17 128.27 0)
+			(at 201.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +3946,7 @@
 			)
 		)
 		(property "Description" "High-Speed CAN Transceiver, silent mode, SOIC-8"
-			(at 217.17 128.27 0)
+			(at 201.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,7 +4311,7 @@
 		)
 	)
 	(sheet
-		(at 207.01 87.63)
+		(at 186.69 110.49)
 		(size 29.21 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4181,11 +4323,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 194 194 0 1.0000)
 		)
 		(uuid "5828d2be-30cc-492b-81f0-4c9eb7634256")
 		(property "Sheetname" "Peripheral"
-			(at 207.01 86.9184 0)
+			(at 186.69 109.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,12 +4336,32 @@
 			)
 		)
 		(property "Sheetfile" "Peripheral.kicad_sch"
-			(at 207.01 107.2646 0)
+			(at 186.69 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "24C02_SCL" input
+			(at 186.69 115.57 180)
+			(uuid "0df76335-bc69-4385-a2fc-a1f7903ad8ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "24C02_SCA" input
+			(at 186.69 113.03 180)
+			(uuid "ee0f9ea0-aaed-44f8-82da-026d6fdfb531")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

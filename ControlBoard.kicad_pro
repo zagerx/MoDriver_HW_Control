@@ -415,6 +415,10 @@
     [
       "abd141e4-a687-4ce0-a8e9-dc522ad2ef55",
       "MCU_Part"
+    ],
+    [
+      "5828d2be-30cc-492b-81f0-4c9eb7634256",
+      "Peripheral"
     ]
   ],
   "text_variables": {}

@@ -263,6 +263,239 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Interface_CAN_LIN:TJA1051T"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TJA1051T"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/TJA1051.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High-Speed CAN Transceiver, silent mode, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "High-Speed CAN Transceiver"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TJA1051T_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TJA1051T_1_1"
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32G4:STM32G473RCTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2344,6 +2577,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 82.55) (xy 93.98 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c339a9-04f8-4383-87ba-9138e5641ad8")
+	)
+	(wire
+		(pts
 			(xy 129.54 80.01) (xy 138.43 80.01)
 		)
 		(stroke
@@ -2364,6 +2607,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 120.65) (xy 138.43 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a2295f1-ea75-490e-9483-144a4536d6bc")
+	)
+	(wire
+		(pts
 			(xy 114.3 41.91) (xy 114.3 44.45)
 		)
 		(stroke
@@ -2381,6 +2634,16 @@
 			(type default)
 		)
 		(uuid "0e874a2c-738b-42ba-ad17-1dde2393ab3a")
+	)
+	(wire
+		(pts
+			(xy 129.54 123.19) (xy 138.43 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14ddce08-b10a-4d71-8c29-5a7cf6190885")
 	)
 	(wire
 		(pts
@@ -2411,6 +2674,16 @@
 			(type default)
 		)
 		(uuid "252b68be-a390-49e5-88d1-0cf78f977484")
+	)
+	(wire
+		(pts
+			(xy 83.82 69.85) (xy 93.98 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25404a4f-6dd7-43ba-a0f5-a0944da9c663")
 	)
 	(wire
 		(pts
@@ -2451,6 +2724,16 @@
 			(type default)
 		)
 		(uuid "39747c51-d326-4d6b-bd6a-7be392775ffd")
+	)
+	(wire
+		(pts
+			(xy 83.82 77.47) (xy 93.98 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb502b1-91c2-4448-9cd4-d3fce177953d")
 	)
 	(wire
 		(pts
@@ -2544,6 +2827,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 80.01) (xy 93.98 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1c674a-73cf-4cdd-8d79-702f94174b08")
+	)
+	(wire
+		(pts
 			(xy 116.84 41.91) (xy 116.84 44.45)
 		)
 		(stroke
@@ -2621,6 +2914,16 @@
 			(type default)
 		)
 		(uuid "8c4b68e6-01b0-4b4c-9196-42f5f10ca2ca")
+	)
+	(wire
+		(pts
+			(xy 129.54 52.07) (xy 138.43 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928a320b-e590-43a6-93f1-1bc28bccdfc1")
 	)
 	(wire
 		(pts
@@ -2724,6 +3027,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 54.61) (xy 138.43 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35483c2-8806-4ff0-b41c-c4b49de145ec")
+	)
+	(wire
+		(pts
 			(xy 111.76 140.97) (xy 114.3 140.97)
 		)
 		(stroke
@@ -2741,6 +3054,26 @@
 			(type default)
 		)
 		(uuid "e57b682f-2e83-49cd-9707-202e4f253f8c")
+	)
+	(wire
+		(pts
+			(xy 129.54 125.73) (xy 138.43 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb10cc6-25e9-44cd-aa84-6f3394a9a417")
+	)
+	(wire
+		(pts
+			(xy 83.82 74.93) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef1d3037-4ea5-4fc8-83f3-df8d6ff496d5")
 	)
 	(wire
 		(pts
@@ -2858,6 +3191,28 @@
 		)
 		(uuid "4a88edad-e486-4167-b270-8acfed8af258")
 	)
+	(hierarchical_label "PD2_TIM8_BREAK"
+		(shape input)
+		(at 83.82 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cadf218-233d-44c9-8dc1-e5b8f867d2e5")
+	)
+	(hierarchical_label "PB12_ADC1_IN11"
+		(shape input)
+		(at 138.43 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52428461-574f-464f-8719-7cdfb286bf40")
+	)
 	(hierarchical_label "PWM1_CH3N"
 		(shape output)
 		(at 138.43 133.35 0)
@@ -2868,6 +3223,17 @@
 			(justify left)
 		)
 		(uuid "525eac15-823f-411d-aa4e-5ed25d655e11")
+	)
+	(hierarchical_label "PC1_ADC2_IN9"
+		(shape input)
+		(at 83.82 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "538a56c6-919d-46d7-aebc-5069ca982caa")
 	)
 	(hierarchical_label "PWM8_CH1"
 		(shape output)
@@ -2902,6 +3268,28 @@
 		)
 		(uuid "610503f7-c2da-49dd-bf39-94f621af9111")
 	)
+	(hierarchical_label "PA1_ADC2_IN2"
+		(shape input)
+		(at 138.43 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7417c04e-28b1-44de-9238-cbed2ffef6eb")
+	)
+	(hierarchical_label "PB10_TIM1_BREAK"
+		(shape input)
+		(at 138.43 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b212c4e-658b-43d6-88bd-3e5cbc21a315")
+	)
 	(hierarchical_label "PWM1_CH4"
 		(shape output)
 		(at 138.43 80.01 0)
@@ -2935,6 +3323,28 @@
 		)
 		(uuid "87be13a9-167f-4bf8-9272-623c94fcfddb")
 	)
+	(hierarchical_label "PC1_ADC1_IN7"
+		(shape input)
+		(at 83.82 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c01aa5c-192b-456f-94ab-aae77e82538d")
+	)
+	(hierarchical_label "PC1_ADC1_IN8"
+		(shape input)
+		(at 83.82 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d188af0-3b92-4388-8640-71e95f506bf8")
+	)
 	(hierarchical_label "PWM1_CH1"
 		(shape output)
 		(at 138.43 72.39 0)
@@ -2957,6 +3367,17 @@
 		)
 		(uuid "9704a183-1c29-405e-bfaa-96f0423372b6")
 	)
+	(hierarchical_label "PC0_ADC1_IN6"
+		(shape input)
+		(at 83.82 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a578079c-d8dd-458c-ad32-22e9b3bcbb07")
+	)
 	(hierarchical_label "PWM1_CH2"
 		(shape output)
 		(at 138.43 74.93 0)
@@ -2968,6 +3389,17 @@
 		)
 		(uuid "a98eccb6-2f37-40c0-aaaa-4628eaf0176b")
 	)
+	(hierarchical_label "PA0_ADC2_IN1"
+		(shape input)
+		(at 138.43 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa476207-553d-4079-b4d9-f33f23abdb69")
+	)
 	(hierarchical_label "SPI1_SCK"
 		(shape output)
 		(at 138.43 64.77 0)
@@ -2978,6 +3410,17 @@
 			(justify left)
 		)
 		(uuid "bdf35603-d6ce-4faf-9118-3429fa9452cb")
+	)
+	(hierarchical_label "PB11_ADC2_IN14"
+		(shape input)
+		(at 138.43 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccb2ea5e-c6f9-460c-ab1e-72e831bf6a52")
 	)
 	(hierarchical_label "PWM8_CH3N"
 		(shape output)
@@ -3308,6 +3751,95 @@
 			(project "ControlBoard"
 				(path "/bfd4cee4-1f26-4ec9-a630-f44d434f4dbf/abd141e4-a687-4ce0-a8e9-dc522ad2ef55"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_CAN_LIN:TJA1051T")
+		(at 217.17 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b669f5f2-6b0e-497a-836f-a9b2faa6d454")
+		(property "Reference" "U4"
+			(at 219.3133 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TJA1051T"
+			(at 219.3133 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 217.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/TJA1051.pdf"
+			(at 217.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-Speed CAN Transceiver, silent mode, SOIC-8"
+			(at 217.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "5759ccef-6755-467d-ac9e-4a2ee5a78929")
+		)
+		(pin "2"
+			(uuid "44b95f6c-18c6-4f3b-aa95-4182609491d3")
+		)
+		(pin "1"
+			(uuid "3ad3b52a-a88a-4630-8d11-160da244cb29")
+		)
+		(pin "4"
+			(uuid "62d648f8-460b-4c64-8f1f-a1af2075189a")
+		)
+		(pin "5"
+			(uuid "7b27bc8a-8a6e-4c65-b7de-dbf9e4d31cba")
+		)
+		(pin "3"
+			(uuid "af271b87-63a3-4793-8825-ff38b8bade62")
+		)
+		(pin "8"
+			(uuid "94b0a7c1-055c-4dd4-99cf-6ff48ef3b962")
+		)
+		(pin "7"
+			(uuid "1951f4ea-2ee8-409c-ad1a-4706f19e3449")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/bfd4cee4-1f26-4ec9-a630-f44d434f4dbf/abd141e4-a687-4ce0-a8e9-dc522ad2ef55"
+					(reference "U4")
 					(unit 1)
 				)
 			)

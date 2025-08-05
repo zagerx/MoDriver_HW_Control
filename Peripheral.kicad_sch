@@ -608,6 +608,82 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 63.5 96.52)
+		(uuid "05c55d87-0093-46ed-aec6-6e9dcc109045")
+	)
+	(no_connect
+		(at 88.9 99.06)
+		(uuid "0714969a-748f-4f96-8170-15c321fe3421")
+	)
+	(no_connect
+		(at 66.04 72.39)
+		(uuid "0bdcd800-797e-4e92-96b2-9da4de6eafaf")
+	)
+	(no_connect
+		(at 78.74 86.36)
+		(uuid "4b0826c1-20f6-4359-ba88-9016e282728f")
+	)
+	(no_connect
+		(at 63.5 104.14)
+		(uuid "633f4203-79b0-45ca-9694-73f55987f0f9")
+	)
+	(no_connect
+		(at 66.04 67.31)
+		(uuid "6410f911-9c33-4fb8-845f-faf4172c6ccf")
+	)
+	(no_connect
+		(at 88.9 101.6)
+		(uuid "87da13d8-dd99-47bd-bb9c-8491947b871f")
+	)
+	(no_connect
+		(at 88.9 96.52)
+		(uuid "8dbbde80-fccb-49a8-a33b-eeb7821ec25f")
+	)
+	(no_connect
+		(at 66.04 69.85)
+		(uuid "916b32bb-5c42-4ed8-882e-f98b550d15cf")
+	)
+	(no_connect
+		(at 86.36 72.39)
+		(uuid "940ec1f8-d27d-4573-b59a-780446cb36ba")
+	)
+	(no_connect
+		(at 76.2 111.76)
+		(uuid "cb828746-95bb-4371-80b1-c262bbd6b2a0")
+	)
+	(no_connect
+		(at 76.2 62.23)
+		(uuid "d582c6ed-e59f-4c85-b999-a1838b3121bd")
+	)
+	(no_connect
+		(at 76.2 77.47)
+		(uuid "fac87ec7-fea2-47fa-bd74-926120111d6b")
+	)
+	(no_connect
+		(at 76.2 86.36)
+		(uuid "fef94404-143f-4ed5-a613-1c01c01fa570")
+	)
+	(wire
+		(pts
+			(xy 48.26 99.06) (xy 63.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c2dab0-c0fd-4c36-a856-c46250c58aed")
+	)
+	(wire
+		(pts
+			(xy 48.26 101.6) (xy 63.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38faab6f-19e8-4d9b-8f81-8a5a95e20f34")
+	)
 	(wire
 		(pts
 			(xy 86.36 69.85) (xy 106.68 69.85)
@@ -628,6 +704,17 @@
 		)
 		(uuid "cc2fc232-ad10-4473-baef-ebfdc278c187")
 	)
+	(hierarchical_label "ICM-20602-SDA"
+		(shape bidirectional)
+		(at 48.26 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18447206-d2d2-48db-9f7c-b8a5e8948f4d")
+	)
 	(hierarchical_label "24C02_SCL"
 		(shape input)
 		(at 106.68 69.85 0)
@@ -639,8 +726,8 @@
 		)
 		(uuid "7423931b-9964-40d8-80fc-e0fcbb3f30e0")
 	)
-	(hierarchical_label "24C02_SCA"
-		(shape input)
+	(hierarchical_label "24C02_SDA"
+		(shape bidirectional)
 		(at 106.68 67.31 0)
 		(effects
 			(font
@@ -649,6 +736,17 @@
 			(justify left)
 		)
 		(uuid "ce83e405-633f-42a3-be45-913ea95cb2f3")
+	)
+	(hierarchical_label "ICM-20602-SCL"
+		(shape input)
+		(at 48.26 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eec5c169-e2f5-4753-8e19-6d77a8d6c0f5")
 	)
 	(symbol
 		(lib_id "Memory_EEPROM:AT24CS02-XHM")

@@ -229,7 +229,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -427,6 +427,10 @@
     [
       "5828d2be-30cc-492b-81f0-4c9eb7634256",
       "Peripheral"
+    ],
+    [
+      "9d13ac18-239f-470b-9a5b-a487c66ffac4",
+      "Power"
     ]
   ],
   "text_variables": {}

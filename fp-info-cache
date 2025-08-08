@@ -1,4 +1,4 @@
-26433876048234771
+26442650179493657
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105602,7 +105602,14 @@ Varistor VF
 2
 2
 footprints
-IDC-Header_2x05_P1.27mm_Vertical_THT
+Box_Head_1.27mm_02_10
+
+
+0
+20
+20
+footprints
+Box_Head_1.27mm_SMD_Vertical_02x05
 
 
 0
@@ -105615,3 +105622,31 @@ SMD vertical IDC box header  2x07 2.54mm double row
 0
 14
 14
+footprints
+JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal
+<b>SM02B-SRSS-TB</b><br>
+
+0
+4
+4
+footprints
+JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical
+
+
+0
+4
+3
+footprints
+JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal
+
+
+0
+8
+7
+footprints
+JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical
+
+
+0
+8
+7

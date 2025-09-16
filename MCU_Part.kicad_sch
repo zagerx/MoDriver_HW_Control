@@ -4830,7 +4830,7 @@
 				)
 			)
 		)
-		(property "Value" "12MHz"
+		(property "Value" "32MHz"
 			(at 47.244 65.024 0)
 			(effects
 				(font

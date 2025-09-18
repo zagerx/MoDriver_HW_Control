@@ -2735,6 +2735,12 @@
 		(uuid "7934dc41-bca5-42e8-996c-4c6f343d59e2")
 	)
 	(junction
+		(at 35.56 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82597ea2-8aea-44b2-9008-23b36e6cd398")
+	)
+	(junction
 		(at 151.13 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2763,6 +2769,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a557d1e4-f377-4936-a90a-bc30dc7a652c")
+	)
+	(junction
+		(at 35.56 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a83cbc2f-4676-4f9c-82bc-a9157cdcb9a7")
 	)
 	(junction
 		(at 109.22 41.91)
@@ -2845,10 +2857,6 @@
 	(no_connect
 		(at 129.54 59.69)
 		(uuid "776f13bf-f1e0-460a-9ab9-4d0a06c73807")
-	)
-	(no_connect
-		(at 93.98 107.95)
-		(uuid "8d665665-4a9c-4836-90e9-9415743dfe15")
 	)
 	(no_connect
 		(at 129.54 100.33)
@@ -3174,6 +3182,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 107.95) (xy 35.56 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f71679f-e948-4830-a26b-86f5ccde92c9")
+	)
+	(wire
+		(pts
 			(xy 129.54 62.23) (xy 138.43 62.23)
 		)
 		(stroke
@@ -3304,6 +3322,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 118.11) (xy 35.56 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8a3342-6a7c-4e5b-85da-4a354309258f")
+	)
+	(wire
+		(pts
 			(xy 168.91 21.59) (xy 168.91 22.86)
 		)
 		(stroke
@@ -3341,6 +3369,16 @@
 			(type default)
 		)
 		(uuid "510999d4-d3e4-4a4e-bf0b-5768884e7ccd")
+	)
+	(wire
+		(pts
+			(xy 35.56 115.57) (xy 35.56 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5187b3c3-3165-4ddc-a959-95fd5718fe6a")
 	)
 	(wire
 		(pts
@@ -3484,6 +3522,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 107.95) (xy 93.98 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705e34c6-c47c-485d-9657-f6de508a878a")
+	)
+	(wire
+		(pts
 			(xy 184.15 115.57) (xy 187.96 115.57)
 		)
 		(stroke
@@ -3551,6 +3599,16 @@
 			(type default)
 		)
 		(uuid "79fa1b85-d839-4e56-98d7-c8facaa71c0e")
+	)
+	(wire
+		(pts
+			(xy 35.56 107.95) (xy 35.56 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bc48c7d-b2cd-4019-a9da-5e7baac9a6ed")
 	)
 	(wire
 		(pts
@@ -4044,6 +4102,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 119.38) (xy 35.56 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f5d8a3-6d48-4f76-97e8-713051712127")
+	)
+	(wire
+		(pts
 			(xy 129.54 125.73) (xy 138.43 125.73)
 		)
 		(stroke
@@ -4101,6 +4169,16 @@
 			(type default)
 		)
 		(uuid "f5a1dade-0b6c-4473-9be0-79bd06e32b8c")
+	)
+	(wire
+		(pts
+			(xy 35.56 106.68) (xy 35.56 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9219fdd-923c-47f4-8f92-4d46d9f1b6a1")
 	)
 	(wire
 		(pts
@@ -4881,6 +4959,142 @@
 			(project ""
 				(path "/bfd4cee4-1f26-4ec9-a630-f44d434f4dbf/abd141e4-a687-4ce0-a8e9-dc522ad2ef55"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "395e017d-32a3-4731-945e-37b97688a0ba")
+		(property "Reference" "#PWR039"
+			(at 35.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3034dc72-9082-401b-ab1c-24dacf1ce598")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/bfd4cee4-1f26-4ec9-a630-f44d434f4dbf/abd141e4-a687-4ce0-a8e9-dc522ad2ef55"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 35.56 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40085378-3257-461d-913b-76b73cfb7108")
+		(property "Reference" "R15"
+			(at 38.862 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 38.608 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31794eae-c724-46ac-8f0d-3d51c020d182")
+		)
+		(pin "2"
+			(uuid "c7667b2e-8840-492c-8a16-5f9c7b182576")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/bfd4cee4-1f26-4ec9-a630-f44d434f4dbf/abd141e4-a687-4ce0-a8e9-dc522ad2ef55"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5770,6 +5984,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 26.67 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b5b50f2-c5f1-419e-b7cd-1d9d3f52f7b7")
+		(property "Reference" "SW2"
+			(at 27.94 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 27.94 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+			(at 21.59 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 26.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e6fec86-4476-4e3b-9b13-8297eed7160d")
+		)
+		(pin "2"
+			(uuid "12810171-6ac3-4ff0-ad00-9588bbb4872b")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/bfd4cee4-1f26-4ec9-a630-f44d434f4dbf/abd141e4-a687-4ce0-a8e9-dc522ad2ef55"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 106.68 41.91 0)
 		(unit 1)
@@ -6365,6 +6650,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 35.56 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed72b7a3-8890-4868-902a-a9af4ffcd564")
+		(property "Reference" "#PWR038"
+			(at 35.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 35.56 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 35.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88095536-4de0-4ba8-9f62-52e7418d5fb9")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/bfd4cee4-1f26-4ec9-a630-f44d434f4dbf/abd141e4-a687-4ce0-a8e9-dc522ad2ef55"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 163.83 25.4 0)
 		(unit 1)
@@ -6428,6 +6779,75 @@
 			(project "ControlBoard"
 				(path "/bfd4cee4-1f26-4ec9-a630-f44d434f4dbf/abd141e4-a687-4ce0-a8e9-dc522ad2ef55"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f70d3fa2-3841-474e-bd95-4d58d6757930")
+		(property "Reference" "C21"
+			(at 38.862 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 38.862 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 35.56 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 35.56 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0cfe550-4a4b-4a20-a44b-dae57278a8c1")
+		)
+		(pin "2"
+			(uuid "0e684363-9afd-42c3-b0af-7e36055f089c")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/bfd4cee4-1f26-4ec9-a630-f44d434f4dbf/abd141e4-a687-4ce0-a8e9-dc522ad2ef55"
+					(reference "C21")
 					(unit 1)
 				)
 			)

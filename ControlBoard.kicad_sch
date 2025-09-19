@@ -4330,7 +4330,7 @@
 		)
 		(uuid "0b340b3f-a677-4adc-bdce-3f03bbf429d7")
 	)
-	(label "MOTOR1_U-"
+	(label "MOTOR1_W-"
 		(at 210.82 41.91 180)
 		(effects
 			(font
@@ -4480,7 +4480,7 @@
 		)
 		(uuid "50c0e861-2b0e-4253-8d0f-5f07fb9fc121")
 	)
-	(label "MOTOR1_U-"
+	(label "MOTOR1_W-"
 		(at 251.46 62.23 180)
 		(effects
 			(font
@@ -4630,7 +4630,7 @@
 		)
 		(uuid "95d7e81d-4926-4fcc-a6d6-705488f34cf7")
 	)
-	(label "MOTOR2_U-"
+	(label "MOTOR2_W-"
 		(at 210.82 85.09 180)
 		(effects
 			(font
@@ -4650,7 +4650,7 @@
 		)
 		(uuid "9e7b955f-10b7-408b-91ac-1f97803573b9")
 	)
-	(label "MOTOR2_U-"
+	(label "MOTOR2_W-"
 		(at 254 106.68 180)
 		(effects
 			(font
